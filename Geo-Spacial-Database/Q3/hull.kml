@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <Placemark>
+    <name>The Pentagon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -118.282550,34.018581,20
+            -118.286608,34.018688,20
+            -118.290724,34.019980,20
+            -118.286229,34.023964,20
+            -118.282937,34.021758,20
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+  <Style id="z1">
+  <IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark><name>Doheny</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.283739,34.020035</coordinates></Point>
+  </Placemark>
+  <Placemark><name>SSL</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.288819,34.019560</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Leavey</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.282937,34.021758</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Gaughan</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.282550,34.018581</coordinates></Point>
+  </Placemark>
+  <Placemark><name>VKC</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.283989,34.021243</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Hoose</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.286608,34.018688</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Wilson</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.286229,34.023964</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Helen</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.288020,34.019179</coordinates></Point>
+  </Placemark>
+  <Placemark><name>AsaVCall</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.284269,34.018667</coordinates></Point>
+  </Placemark>
+  <Placemark><name>EthelPercy</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.290724,34.019980</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Laufer</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.287562,34.019966</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Feuchtwanger</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.283525,34.020139</coordinates></Point>
+  </Placemark>
+  <Placemark><name>TommyTrojan</name>
+  <styleUrl>#z1</styleUrl><Point><coordinates>-118.285449,34.020560</coordinates></Point>
+  </Placemark>
+  </Document>
+</kml>
